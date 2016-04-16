@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{DFD3E8D8-8918-4CFB-B0D3-256A37B0FC48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{F6C38955-5B30-463A-8586-DB980865550C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{21F53201-76B5-4B10-A0AA-02363B548096}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contracts", "Contracts", "{268B65F9-52D7-4ED4-A159-D1C468B783DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{FC4D544D-A5E8-4569-87D5-9A80B037B580}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{BB386738-387A-454B-BFBB-238C6DA31D2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contract", "Contract\Contract.csproj", "{65EFB6FB-4F85-4714-BB40-65C1FFD44E88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BusinessService", "BusinessService", "{32D3BFA6-2BD3-49A8-AECD-FB9786E5EC95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessService", "BusinessService\BusinessService.csproj", "{B67DF17B-F0F3-44E6-B17D-F88A9410CA8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{5A5B9A08-9857-4A25-A038-4738F8CDABE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Servicio", "Servicio\Servicio.csproj", "{A7A1BEDC-68A7-4F94-A1C7-8976CB96C47E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{C445A6C9-D9D1-4193-827E-FCCE96770614}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Postman", "Postman", "{E7A115F8-EB94-46C5-8F65-FA84D3C06EC8}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Desktop\ExampleServiceCollection.json = ..\..\..\..\Desktop\ExampleServiceCollection.json
+		..\..\..\..\Desktop\LocalhostEnvironment = ..\..\..\..\Desktop\LocalhostEnvironment
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBScript", "DBScript", "{334765DF-C66A-4382-A8C2-83006AAB42E2}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\Desktop\EntityFrameworkExampleDB.sql = ..\..\..\..\Desktop\EntityFrameworkExampleDB.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6C38955-5B30-463A-8586-DB980865550C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6C38955-5B30-463A-8586-DB980865550C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6C38955-5B30-463A-8586-DB980865550C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6C38955-5B30-463A-8586-DB980865550C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB386738-387A-454B-BFBB-238C6DA31D2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB386738-387A-454B-BFBB-238C6DA31D2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB386738-387A-454B-BFBB-238C6DA31D2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB386738-387A-454B-BFBB-238C6DA31D2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65EFB6FB-4F85-4714-BB40-65C1FFD44E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65EFB6FB-4F85-4714-BB40-65C1FFD44E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65EFB6FB-4F85-4714-BB40-65C1FFD44E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65EFB6FB-4F85-4714-BB40-65C1FFD44E88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B67DF17B-F0F3-44E6-B17D-F88A9410CA8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B67DF17B-F0F3-44E6-B17D-F88A9410CA8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B67DF17B-F0F3-44E6-B17D-F88A9410CA8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B67DF17B-F0F3-44E6-B17D-F88A9410CA8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7A1BEDC-68A7-4F94-A1C7-8976CB96C47E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7A1BEDC-68A7-4F94-A1C7-8976CB96C47E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7A1BEDC-68A7-4F94-A1C7-8976CB96C47E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7A1BEDC-68A7-4F94-A1C7-8976CB96C47E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F6C38955-5B30-463A-8586-DB980865550C} = {DFD3E8D8-8918-4CFB-B0D3-256A37B0FC48}
+		{268B65F9-52D7-4ED4-A159-D1C468B783DC} = {21F53201-76B5-4B10-A0AA-02363B548096}
+		{FC4D544D-A5E8-4569-87D5-9A80B037B580} = {21F53201-76B5-4B10-A0AA-02363B548096}
+		{BB386738-387A-454B-BFBB-238C6DA31D2F} = {FC4D544D-A5E8-4569-87D5-9A80B037B580}
+		{65EFB6FB-4F85-4714-BB40-65C1FFD44E88} = {268B65F9-52D7-4ED4-A159-D1C468B783DC}
+		{B67DF17B-F0F3-44E6-B17D-F88A9410CA8E} = {32D3BFA6-2BD3-49A8-AECD-FB9786E5EC95}
+		{A7A1BEDC-68A7-4F94-A1C7-8976CB96C47E} = {5A5B9A08-9857-4A25-A038-4738F8CDABE1}
+		{E7A115F8-EB94-46C5-8F65-FA84D3C06EC8} = {C445A6C9-D9D1-4193-827E-FCCE96770614}
+		{334765DF-C66A-4382-A8C2-83006AAB42E2} = {C445A6C9-D9D1-4193-827E-FCCE96770614}
+	EndGlobalSection
+EndGlobal
