@@ -25,17 +25,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{5A5B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Servicio", "Servicio\Servicio.csproj", "{A7A1BEDC-68A7-4F94-A1C7-8976CB96C47E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{C445A6C9-D9D1-4193-827E-FCCE96770614}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{8108DD61-DF45-47B4-BE46-35C4779CA2F7}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Postman", "Postman", "{E7A115F8-EB94-46C5-8F65-FA84D3C06EC8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Postman", "Postman", "{4B2F503D-0D1D-4A73-9C26-9CA66FF48D60}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\Desktop\ExampleServiceCollection.json = ..\..\..\..\Desktop\ExampleServiceCollection.json
-		..\..\..\..\Desktop\LocalhostEnvironment = ..\..\..\..\Desktop\LocalhostEnvironment
+		Documents\Postman\ExampleServiceCollection.json = Documents\Postman\ExampleServiceCollection.json
+		Documents\Postman\LocalhostEnvironment = Documents\Postman\LocalhostEnvironment
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBScript", "DBScript", "{334765DF-C66A-4382-A8C2-83006AAB42E2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBScript", "DBScript", "{C0C3DC6F-CB5E-44D9-AA9A-7758188F643D}"
 	ProjectSection(SolutionItems) = preProject
-		..\..\..\..\Desktop\EntityFrameworkExampleDB.sql = ..\..\..\..\Desktop\EntityFrameworkExampleDB.sql
+		Documents\DBScript\EntityFrameworkExampleDB.sql = Documents\DBScript\EntityFrameworkExampleDB.sql
 	EndProjectSection
 EndProject
 Global
@@ -76,7 +76,7 @@ Global
 		{65EFB6FB-4F85-4714-BB40-65C1FFD44E88} = {268B65F9-52D7-4ED4-A159-D1C468B783DC}
 		{B67DF17B-F0F3-44E6-B17D-F88A9410CA8E} = {32D3BFA6-2BD3-49A8-AECD-FB9786E5EC95}
 		{A7A1BEDC-68A7-4F94-A1C7-8976CB96C47E} = {5A5B9A08-9857-4A25-A038-4738F8CDABE1}
-		{E7A115F8-EB94-46C5-8F65-FA84D3C06EC8} = {C445A6C9-D9D1-4193-827E-FCCE96770614}
-		{334765DF-C66A-4382-A8C2-83006AAB42E2} = {C445A6C9-D9D1-4193-827E-FCCE96770614}
+		{4B2F503D-0D1D-4A73-9C26-9CA66FF48D60} = {8108DD61-DF45-47B4-BE46-35C4779CA2F7}
+		{C0C3DC6F-CB5E-44D9-AA9A-7758188F643D} = {8108DD61-DF45-47B4-BE46-35C4779CA2F7}
 	EndGlobalSection
 EndGlobal

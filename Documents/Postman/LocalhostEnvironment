@@ -1,0 +1,17 @@
+{
+	"id": "dd2f2918-23dd-9d77-1411-9ba72b4b68d0",
+	"name": "Localhost",
+	"values": [
+		{
+			"key": "URL",
+			"value": "http://localhost:4598/",
+			"type": "text",
+			"enabled": true
+		}
+	],
+	"timestamp": 1460779053596,
+	"synced": false,
+	"syncedFilename": "",
+	"team": null,
+	"isDeleted": false
+}

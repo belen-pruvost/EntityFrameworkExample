@@ -1,0 +1,56 @@
+{
+	"id": "71f3efc3-9e72-ea9c-19eb-0d081faa6582",
+	"name": "Example Service",
+	"description": "",
+	"order": [
+		"2964f8a8-ea51-c7ad-e3be-6106d962e98f",
+		"ca6b889f-939b-094c-418f-7549c2f887aa"
+	],
+	"folders": [],
+	"timestamp": 1460779087405,
+	"owner": "",
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "2964f8a8-ea51-c7ad-e3be-6106d962e98f",
+			"headers": "",
+			"url": "{{URL}}/Example/Usuarios",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "71f3efc3-9e72-ea9c-19eb-0d081faa6582",
+			"data": null,
+			"dataMode": "params",
+			"name": "Get Usuarios",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1460779087404,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "ca6b889f-939b-094c-418f-7549c2f887aa",
+			"headers": "Content-Type: application/json\n",
+			"url": "{{URL}}/Example/Usuarios",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "PATCH",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1460779208799,
+			"name": "Update Usuario",
+			"description": "",
+			"collectionId": "71f3efc3-9e72-ea9c-19eb-0d081faa6582",
+			"responses": [],
+			"rawModeData": "{\n    \"IdUsuario\": 1,\n    \"NombreUsuario\": \"Juan A. Perez\"\n  }"
+		}
+	]
+}
